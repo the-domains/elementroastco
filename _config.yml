@@ -1,29 +1,41 @@
-name: Element Roast Co
-favicon: null
-layout_spectrum: 1
-typography_spectrum: 0.7677407192531973
 title: Element Roasting Co
-cta:
-  domain: null
-  bucket: null
-  version: null
-analytics:
-  google: null
-  facebook: null
-  twitter: null
-opengraph:
-  image: null
-  type: null
-  appId: null
+purpose: []
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
 color:
+  saturation: 0.1875
+  brandStrength: 0.1875
+  rhythmicContrast: 0.5
   brandColors:
     - '#98b8dc'
     - '#646867'
     - '#7e8e84'
     - '#131d1c'
     - '#e1eace'
-  brandStrength: 0.1875
   lightness: 0.375
-  saturation: 0.1875
-  rhythmicContrast: 0.5
-purpose: []
+cta:
+  bucket: null
+  version: null
+  domain: null
+analytics:
+  twitter: null
+  google: null
+  facebook: null
+favicon: null
+name: Element Roast Co
+opengraph:
+  image: null
+  type: null
+  appId: null
+typography_spectrum: 0.8856068
+layout_spectrum: 0.4366273
